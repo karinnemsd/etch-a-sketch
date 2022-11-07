@@ -33,8 +33,8 @@ function makeGrid(gridNumber) {
 //Restart grid size every time it changes its value:
 function restartGrid() {
     let pixels = container.querySelectorAll('div');
-    pixels.forEach(pixel => pixel.remove());
-    makeGrid(slider.value);
+    pixels.forEach(pixel => pixel.remove()); //first remove all pixels
+    makeGrid(slider.value); //restart grid
     addGray(); //Default color;
 
 }
