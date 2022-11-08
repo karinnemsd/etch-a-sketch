@@ -38,7 +38,6 @@ function restartGrid() {
     pixels.forEach(pixel => pixel.remove()); //first remove all pixels
     makeGrid(slider.value); //restart grid
     addGray(); //Default color;
-
 }
 
 //Classic Button:
