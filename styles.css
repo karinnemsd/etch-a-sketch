@@ -123,4 +123,5 @@ input {
 .row {
     border: 1px solid #ddd;
     flex: 1;
+    background-color: white;
 }
